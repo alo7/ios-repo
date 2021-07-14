@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   
     s.ios.deployment_target = '10.0'
     s.vendored_frameworks = 'Frameworks/Alo7HomeworkSDK.framework'
-    s.dependency 'RxSwift', '~> 5.1.0'
-    s.dependency 'RxCocoa', '~> 5.1.0'
+    s.dependency 'RxSwift', '~> 6.2.0'
+    s.dependency 'RxCocoa', '~> 6.2.0'
     s.dependency 'WebViewJavascriptBridge', '~> 6.0.0'
   end
