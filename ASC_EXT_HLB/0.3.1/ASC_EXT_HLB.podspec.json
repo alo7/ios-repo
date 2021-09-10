@@ -1,0 +1,42 @@
+{
+  "name": "ASC_EXT_HLB",
+  "version": "0.3.1",
+  "summary": "Alo7 Streaming Class External SDK",
+  "homepage": "https://github.com/alo7/asc-ios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Dapeng Li": "dapeng.li@alo7.com"
+  },
+  "source": {
+    "http": "https://web-s3.alo7.com/public/study/ios/asc-ext/HLB/0.3.1/ASC_EXT.zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "AliPlayerSDK_iOS": [
+      "4.7.4"
+    ],
+    "SingSoundSDK": [
+      "0.7.5"
+    ]
+  },
+  "vendored_frameworks": [
+    "Vendor/iflyMSC.framework",
+    "Frameworks/ASC_EXT.framework"
+  ],
+  "resource_bundles": {
+    "ASC_EXT_HLB": "Resources/Images.xcassets"
+  },
+  "frameworks": [
+    "CoreTelephony",
+    "AVFoundation"
+  ],
+  "libraries": [
+    "z",
+    "c++"
+  ]
+}
