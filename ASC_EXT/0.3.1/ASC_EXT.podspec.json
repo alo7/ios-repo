@@ -11,8 +11,7 @@
     "Dapeng Li": "dapeng.li@alo7.com"
   },
   "source": {
-    "git": "https://github.com/alo7/asc-ios.git",
-    "tag": "0.3.1"
+    "http": "https://web-s3.alo7.com/public/study/ios/asc-ext/EXT/0.3.1/ASC_EXT.zip"
   },
   "platforms": {
     "ios": "9.0"
@@ -27,7 +26,7 @@
   },
   "vendored_frameworks": "Frameworks/ASC_EXT.framework",
   "resource_bundles": {
-    "ASC_EXT": "Resources/Images.xcassets"
+    "ASC_EXT_EXT": "Resources/Images.xcassets"
   },
   "frameworks": [
     "CoreTelephony",
