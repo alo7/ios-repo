@@ -29,7 +29,7 @@
     "ASC_EXT.framework"
   ],
   "resource_bundles": {
-    "ASC_EXT_EXT_BLH": "Resources/Images.xcassets"
+    "ASC_EXT_BLH": "Resources/Images.xcassets"
   },
   "frameworks": [
     "CoreTelephony",
