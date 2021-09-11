@@ -26,7 +26,7 @@
   },
   "vendored_frameworks": [
     "Vendor/iflyMSC.framework",
-    "ASC_EXT.framework"
+    "Frameworks/ASC_EXT.framework"
   ],
   "resource_bundles": {
     "ASC_EXT_BLH": "Resources/Images.xcassets"
